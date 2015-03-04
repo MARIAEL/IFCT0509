@@ -1,9 +1,5 @@
 <?php include '_header.php' ?>
-
-
-
 <div class="well">TABLA DE MULTIPLICAR</div>
-	
 	<form action="tbl_multiplica.php" method="post">
 		<tr>
     	<td>Número</td>
@@ -12,8 +8,6 @@
     	</tr>
 
 	<input type="submit" name="go" value="GO" class="btn btn-warning"/> 
-
-
 
 	</form>
 <div class="well">
