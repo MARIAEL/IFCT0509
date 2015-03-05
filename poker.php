@@ -10,16 +10,32 @@
 
 		if (isset($_POST["go"])) {
 			# code...
-		$c1 = rand(1,13);
-		$p1 = rand(1,4);
+			$c1 = rand(1,13);
+			$p1 = rand(1,4);
 
-		$c2 = rand(1,13);
-		$p2 = rand(1,4);
+			$c2 = rand(1,13);
+			$p2 = rand(1,4);
 
 
-		$carta1 = "carta_" . $c1 . "_" . $p1 .".png";
-		$carta2 = "carta_" . $c2 . "_" . $p2 .".png";
+			$carta1 = "carta_" . $c1 . "_" . $p1 .".png";
+			$carta2 = "carta_" . $c2 . "_" . $p2 .".png";
 
+		}
+
+		
+		while ($carta1 == $carta2) {
+			echo "·hhhhhh";
+			$c1 = rand(1,13);
+			$p1 = rand(1,4);
+
+			$c2 = rand(1,13);
+			$p2 = rand(1,4);
+
+
+			$carta1 = "carta_" . $c1 . "_" . $p1 .".png";
+			$carta2 = "carta_" . $c2 . "_" . $p2 .".png";
+			
+		
 		}
 
 	 ?>
